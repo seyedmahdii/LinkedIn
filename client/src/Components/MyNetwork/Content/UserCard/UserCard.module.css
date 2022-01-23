@@ -1,0 +1,70 @@
+.card {
+    margin: 0.3rem 0;
+    display: flex;
+    padding: 0 0.3rem;
+}
+.wrapper {
+    width: 100%;
+    background-color: white;
+    border-radius: 0.8rem;
+    transition: var(--transition);
+    border: 1px solid rgba(32, 39, 140, 0.125);
+    overflow: hidden;
+}
+.wrapper:hover {
+    box-shadow: 0 0.46875rem 2.1875rem rgb(8 10 37 / 3%),
+        0 0.9375rem 1.40625rem rgb(8 10 37 / 3%),
+        0 0.25rem 0.53125rem rgb(8 10 37 / 5%),
+        0 0.125rem 0.1875rem rgb(8 10 37 / 3%);
+}
+.header {
+    height: 3.87rem;
+    background: url("../../../../Assets/images/defaultBG.png") center/cover
+        no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.profile {
+    margin-top: 1.5rem;
+}
+.profile img {
+    height: 6.5rem;
+    width: 6.5rem;
+    border-radius: 50%;
+}
+
+.body {
+    margin-top: 5rem;
+    text-align: center;
+}
+.name {
+    color: #111;
+    font-weight: bold;
+}
+.name:hover {
+    text-decoration: underline;
+}
+.title {
+    color: #333;
+    display: block;
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+}
+.card__btn {
+    border-radius: 4rem !important;
+    font-size: 0.8rem !important;
+    font-weight: 700 !important;
+    padding: 0 !important;
+    height: 2rem !important;
+    margin: 1.3rem 0 0.7rem !important;
+    width: 90% !important;
+}

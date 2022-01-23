@@ -1,0 +1,12 @@
+.sidebar {
+    padding: 0 1rem;
+}
+.box {
+    margin-bottom: 1rem;
+}
+
+@media all and (min-width: 768px) {
+    .sidebar {
+        padding-right: 0.8rem;
+    }
+}

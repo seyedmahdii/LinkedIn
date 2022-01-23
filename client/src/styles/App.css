@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+    --ff-primary: "IranianSans", tahoma;
+    --ff-secondary: "Lalezar", tahoma;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --heavy-shadow: 0 5px 20px rgba(0, 0, 0, 0.35);
+    --bg-color: #eee;
+    --transition: all 0.2s linear;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #f3f2ef;
+    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+@media all and (min-width: 1100px) {
+    .container {
+        max-width: 62rem;
+    }
+}

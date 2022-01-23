@@ -1,0 +1,117 @@
+.box {
+    background-color: white;
+    margin-bottom: 1.5rem;
+    border-radius: 0.7rem;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+
+.profile__header {
+    min-height: 99px;
+    max-height: 99px;
+    background: gray url("../../../Assets/images/profile-bg.jpg") center/cover
+        no-repeat;
+    position: relative;
+}
+.profile__header-edit {
+    display: flex;
+    justify-content: flex-end;
+}
+.profile__header-icon {
+    background-color: white !important;
+    margin: 1rem !important;
+}
+.profile__img-wrapper {
+    height: 7.5rem;
+    width: 7.5rem;
+    overflow: hidden;
+    border: 4px solid white;
+    border-radius: 50%;
+    z-index: 1000;
+    position: absolute;
+    left: 4%;
+    bottom: -2rem;
+}
+.profile__info {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.profile__info-left {
+    margin-bottom: 0.6rem;
+}
+.name {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.workplace {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.location {
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 0.3rem;
+    font-size: 0.85rem;
+}
+.contact-info {
+    color: #0a66c2;
+    font-size: 0.9rem;
+}
+.contact-info:hover {
+    text-decoration: underline;
+}
+.profile__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+.profile__item img {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+}
+.connections {
+    margin: 0.4rem 1.5rem;
+    color: #0a66c2;
+}
+.connections:hover {
+    text-decoration: underline;
+}
+.profile__btn-wrapper {
+    margin: 0.5rem 1.5rem;
+}
+.profile__btn {
+    text-transform: unset !important;
+    border-radius: 3rem !important;
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+}
+
+@media all and (min-width: 992px) {
+    .profile__header {
+        min-height: 159px;
+        max-height: 159px;
+    }
+    .profile__img-wrapper {
+        height: 9.5rem;
+        width: 9.5rem;
+    }
+    .profile__info {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .profile__info-left {
+        margin-bottom: 0;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .content {
+        padding-right: 0.8rem;
+    }
+}

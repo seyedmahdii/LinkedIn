@@ -1,0 +1,27 @@
+.box {
+    background-color: white;
+    margin-bottom: 0.8rem;
+    border-radius: 0.7rem;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    padding: 0.3rem 1rem;
+}
+
+.box__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.9);
+}
+.box__btn {
+    color: rgba(0, 0, 0, 0.6) !important;
+    text-transform: unset !important;
+    font-weight: 700;
+    font-style: 1.1rem;
+}
+
+@media all and (min-width: 768px) {
+    .content {
+        padding-left: 0.8rem;
+    }
+}

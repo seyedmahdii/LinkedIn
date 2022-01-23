@@ -1,0 +1,50 @@
+.sidebar {
+    padding: 0 1rem;
+}
+
+.box {
+    margin-bottom: 1rem;
+}
+
+.info {
+    background-color: white;
+    padding: 0rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dfdfdf;
+}
+.info__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.info__group:not(:last-child) {
+    border-bottom: 1px solid #dfdfdf;
+}
+.info__group-title {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+.info__group-icon {
+    font-size: 1rem !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.dream-job-link {
+    border: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dream-job-link img {
+    border-radius: 1rem;
+}
+
+@media all and (min-width: 768px) {
+    .sidebar {
+        padding-left: 0.8rem;
+    }
+}

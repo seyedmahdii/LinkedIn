@@ -1,0 +1,28 @@
+.box {
+    background-color: white;
+    margin-bottom: 0.8rem;
+    border-radius: 0.7rem;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    padding: 0.3rem 1rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+.profile {
+    min-height: 3rem;
+    min-width: 3rem;
+    max-height: 3rem;
+    max-width: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0.5rem;
+}
+
+@media all and (min-width: 768px) {
+    .content {
+        padding-left: 0.8rem;
+    }
+}
